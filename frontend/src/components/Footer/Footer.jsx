@@ -3,10 +3,13 @@ import "./Footer.css";
 import { assets } from "../../assets/assets";
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="footer-content">
         <div className="footer-content-left">
-          <img src={assets.logo} alt="" />
+          <div className="navbar">
+          <h1>Rhiyme.</h1>
+          </div>
+        
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. At cum
             consequuntur corporis distinctio nulla inventore?

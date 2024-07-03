@@ -66,3 +66,8 @@
 .food-item-counter img{
     width: 30px;
 }
+
+.food-item:hover{
+  scale: 1.1;
+  transition: 0.5s;
+}
