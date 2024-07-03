@@ -68,6 +68,8 @@
     }
 }
 @media(max-width:750px){
+
+
     .header-contents{
         max-width: 65%;
     }
@@ -76,5 +78,10 @@
     }
     .header-contents button{
         padding: 2vw 4vw;
+    }
+}
+@media(max-width:650px){
+    .header{
+        height: 37vw;
     }
 }
