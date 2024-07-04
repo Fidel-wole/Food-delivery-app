@@ -68,7 +68,9 @@
     }
 }
 @media(max-width:750px){
-
+.header-contents h2{
+    font-size:max(4.5vw, 19px);
+}
 
     .header-contents{
         max-width: 65%;
